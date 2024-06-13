@@ -14,9 +14,7 @@
 // // grade D >= 60
 // // grade F
 
-
 // results.push({ name: student.name, grade: grade });
-
 
 const students = [
     { name: "Alice", scores: [85, 92, 78] },
@@ -50,7 +48,6 @@ function calculateGrades(students) {
         } else {
             grade = "Grade E";
         }
-
 
         let results = new Array()
         results.push(`Name: ${student.name}`, `AverageSum: ${averageSum}`, `Grade: ${grade}`)
