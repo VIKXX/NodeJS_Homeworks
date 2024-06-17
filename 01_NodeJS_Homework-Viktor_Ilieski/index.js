@@ -53,6 +53,7 @@ function calculateGrades(students) {
         results.push(`Name: ${student.name}`, `AverageSum: ${averageSum}`, `Grade: ${grade}`)
         console.log(results);
     })
+
 }
 
 calculateGrades(students)
